@@ -14,16 +14,16 @@ export const themeConfig = {
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
+      name: "zheyong",
       cover: "/images/logo/logo.webp",
-      email: "114514@gmail.com",
-      link: "https://www.imsyy.top",
+      email: "dongpangpang666@gmail.com",
+      link: "https://www.resume.lizheyong.com",
     },
   },
   // 备案信息
   icp: "萌ICP备114514号",
   // 建站日期
-  since: "2020-07-28",
+  since: "2025-05-15",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -110,6 +110,14 @@ export const themeConfig = {
   },
   // 导航栏菜单
   nav: [
+    {
+      text: "提示词",
+      items: [
+        { text: "画图", link: "/pages/prompts/draw", icon: "photoshop" },
+        { text: "编程提问", link: "/pages/prompts/coding", icon: "code" },
+        { text: "搜索研究", link: "/pages/prompts/research", icon: "lightbulb" },
+      ],
+    },
     {
       text: "文库",
       items: [
@@ -224,14 +232,14 @@ export const themeConfig = {
       // 是否开启封面显示 文章不设置cover封面会显示异常，可以设置下方默认封面
       enable: true,
       // 封面布局方式: left | right | both
-      coverLayout: 'both',
+      coverLayout: "both",
       // 默认封面(随机展示)
       defaultCover: [
-        'https://example.com/1.avif',
-        'https://example.com/2.avif',
-        'https://example.com/3.avif'
-      ]
-    }
+        "https://example.com/1.avif",
+        "https://example.com/2.avif",
+        "https://example.com/3.avif",
+      ],
+    },
   },
   // 页脚信息
   footer: {

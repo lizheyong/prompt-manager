@@ -273,6 +273,8 @@
         code {
           font-family: "Fira Code", var(--main-font-family), monospace;
           font-optical-sizing: auto;
+          white-space: pre-wrap; // 允许代码自动换行
+          word-wrap: break-word; // 允许长单词换行
           .line {
             display: inline-block;
             height: 22px;
